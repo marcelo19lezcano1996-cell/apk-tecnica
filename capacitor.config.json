@@ -1,6 +1,5 @@
 {
-  "appId": "ar.tecnica.servicio",
-  "appName": "Técnica y Servicio",
-  "webDir": "www",
-  "android": { "allowMixedContent": false }
+  "appId": "com.tecnicayservicio.app",
+  "appName": "TecnicaYServicio",
+  "webDir": "www"
 }
