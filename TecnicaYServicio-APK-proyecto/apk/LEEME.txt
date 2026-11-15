@@ -1,0 +1,16 @@
+CÓMO OBTENER EL APK (sin instalar nada en la PC)
+
+1. Entrá a github.com y creá una cuenta gratis (si no tenés).
+2. Creá un repositorio nuevo, privado, llamado "tecnica-apk".
+3. En el repositorio: "Add file" > "Upload files" y arrastrá TODO el contenido
+   de esta carpeta (incluida la carpeta oculta .github y la carpeta www).
+   Si no se sube la carpeta .github, subí el archivo build-apk.yml desde
+   "Add file" > "Create new file" con el nombre: .github/workflows/build-apk.yml
+4. Pestaña "Actions" > "Crear APK" > "Run workflow". Tarda unos 5 minutos.
+5. Cuando termine (tilde verde), entrá a esa ejecución y abajo, en
+   "Artifacts", descargá "TecnicaYServicio-APK" (viene en un zip con app-debug.apk).
+6. Pasá app-debug.apk al celular, abrilo y permití "instalar apps de
+   origen desconocido" cuando lo pida.
+
+Para cambiar el sistema más adelante: reemplazá www/index.html por el nuevo
+archivo y volvé a correr "Crear APK".
